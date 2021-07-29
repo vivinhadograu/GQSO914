@@ -1,4 +1,6 @@
 
 # Calculadora API (GQSO - IFAL)
-TODO (vívia-ifal): preencher descrição com as características do projeto
-Teste
+Objetivo: criar uma calculadora API
+Pendências:
+• todo código fonte;
+• o que mais for pedido nas próximas entregas.
