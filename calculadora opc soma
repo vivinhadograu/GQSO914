@@ -1,0 +1,119 @@
+< html >
+
+< centro >
+
+< form name = "calculadora" >
+
+< table border = 3 
+
+   width = "370"
+
+   bgcolor = "white" >
+
+	< tr >		< td align = "center" >
+
+			< input type = "text"  
+
+          name = "input"
+
+          size = "20" >
+
+		< /td >
+
+	< /tr >
+
+	< tr >
+
+		< td align = "center" >
+
+			 < input type = "botão"
+
+           name = " um "
+
+           value = " 1 " onClick = " calculadora.Input.value + = '1' " >
+
+			  < input type = "botão"
+
+           name = " dois "
+
+           value = " 2 " onClick = " calculadora.Input.value + = '2' " >
+
+			  < input type = "botão"
+
+           name = " três "
+
+           value = " 3 " onClick = " calculadora.Input.value + = '3' " >
+
+			  < input type = "botão"
+
+           name = " quatro "
+
+           value = " 4 " onClick = " calculadora.Input.value + = '4' " >
+
+			  < input type = "botão"
+
+           name = " cinco "
+
+           value = " 5 " onClick = " calculadora.Input.value + = '5' " >
+
+			  < input type = "botão"
+
+           name = " seis "
+
+           value = " 6 " onClick = " calculadora.Input.value + = '6' " >
+
+			  < input type = "botão"
+
+           name = " sete "
+
+           value = " 7 " onClick = " calculadora.Input.value + = '7' " >
+
+			  < input type = "botão"
+
+           name = " oito "
+
+           value = " 8 " onClick = " calculadora.Input.value + = '8' " >
+
+			  < input type = "botão"
+
+           name = " nove "
+
+           value = " 9 " onClick = " calculadora.Input.value + = '9' " >
+
+          < input type = "botão"
+
+           name = " mais "
+
+           value = " + " onClick = " calculadora.Input.value + = '+' " >
+
+			 < br >
+
+			  < input type = "botão"
+
+           name = " limpar "
+
+           value = " C " onClick = " calculadora.Input.value + = ' ' " >
+
+			  < input type = "botão"
+
+           name = " zero "
+
+           value = " 0 " onClick = " calculadora.Input.value + = '0' " >
+
+			 < input type = " botão "
+
+          name = " dolt "
+
+          value = "   =   " onClick = " calcular.Input.value = eval (calculadora.Input.value) " >
+
+		< /td >
+
+	< /tr >
+
+< /table >
+
+< /form >
+
+< /centro >
+
+< /html >
