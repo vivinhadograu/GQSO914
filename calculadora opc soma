@@ -1,119 +1,78 @@
-< html >
+<html>
 
-< centro >
+<head>
+  <style>
+    .campo-digito {
+      width: 100%;
+      height: 100px;
 
-< form name = "calculadora" >
+      background-color: #F0F0F0;
+      font-size: 36px;
+      text-align: center;
+    }
 
-< table border = 3 
+    .grade {
+      min-height: 100px;
 
-   width = "370"
+      display: grid;
 
-   bgcolor = "white" >
+      margin-top: 4px;
 
-	< tr >		< td align = "center" >
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 4px;
+    }
 
-			< input type = "text"  
+    .grade button {
+      font-size: 48px;
+    }
 
-          name = "input"
+    .botao-resultado {
+      width: 200px;
 
-          size = "20" >
+      display: block;
 
-		< /td >
+      margin-top: 16px;
+      margin-left: auto;
 
-	< /tr >
+      font-size: 64px;
+      color: white;
+      border-color: white;
 
-	< tr >
+      background-color: dodgerblue;
+    }
+  </style>
+</head>
 
-		< td align = "center" >
+<body>
+  <form name="calculadora">
+    <input class="campo-digito" type="number" name="input">
 
-			 < input type = "botão"
+    <div class="grade">
+      <button type="button" name="um">1</button>
+      <button type="button" name="dois">2</button>
+      <button type="button" name="três">3</button>
+    </div>
 
-           name = " um "
+    <div class="grade">
+      <button type="button" name="quatro">4</button>
+      <button type="button" name="cinco">5</button>
+      <button type="button" name="seis">6</button>
+    </div>
 
-           value = " 1 " onClick = " calculadora.Input.value + = '1' " >
+    <div class="grade">
+      <button type="button" name="sete">7</button>
+      <button type="button" name="oito">8</button>
+      <button type="button" name="nove">9</button>
+    </div>
 
-			  < input type = "botão"
+    <div class="grade">
+      <button type="button" name="mais">+</button>
+      <button type="button" name="limpar">C</button>
+      <button type="button" name="zero">0</button>
+    </div>
 
-           name = " dois "
+    <button class="botao-resultado" type="button" name="resultado">=</button>
+  </form>
+</body>
 
-           value = " 2 " onClick = " calculadora.Input.value + = '2' " >
-
-			  < input type = "botão"
-
-           name = " três "
-
-           value = " 3 " onClick = " calculadora.Input.value + = '3' " >
-
-			  < input type = "botão"
-
-           name = " quatro "
-
-           value = " 4 " onClick = " calculadora.Input.value + = '4' " >
-
-			  < input type = "botão"
-
-           name = " cinco "
-
-           value = " 5 " onClick = " calculadora.Input.value + = '5' " >
-
-			  < input type = "botão"
-
-           name = " seis "
-
-           value = " 6 " onClick = " calculadora.Input.value + = '6' " >
-
-			  < input type = "botão"
-
-           name = " sete "
-
-           value = " 7 " onClick = " calculadora.Input.value + = '7' " >
-
-			  < input type = "botão"
-
-           name = " oito "
-
-           value = " 8 " onClick = " calculadora.Input.value + = '8' " >
-
-			  < input type = "botão"
-
-           name = " nove "
-
-           value = " 9 " onClick = " calculadora.Input.value + = '9' " >
-
-          < input type = "botão"
-
-           name = " mais "
-
-           value = " + " onClick = " calculadora.Input.value + = '+' " >
-
-			 < br >
-
-			  < input type = "botão"
-
-           name = " limpar "
-
-           value = " C " onClick = " calculadora.Input.value + = ' ' " >
-
-			  < input type = "botão"
-
-           name = " zero "
-
-           value = " 0 " onClick = " calculadora.Input.value + = '0' " >
-
-			 < input type = " botão "
-
-          name = " dolt "
-
-          value = "   =   " onClick = " calcular.Input.value = eval (calculadora.Input.value) " >
-
-		< /td >
-
-	< /tr >
-
-< /table >
-
-< /form >
-
-< /centro >
-
-< /html >
+</html>
