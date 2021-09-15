@@ -38,7 +38,10 @@
       color: white;
       border-color: white;
 
+
       background-color: rgba(111,111,111,.3);
+
+    
     }
   </style>
 </head>
